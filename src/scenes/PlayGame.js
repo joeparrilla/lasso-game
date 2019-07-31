@@ -4,12 +4,12 @@ export class PlayGame extends Phaser.Scene {
     constructor() { super('PlayGame'); }
 
     preload() {
-        this.load.spritesheet('player', 'src/assets/sprites/cowboy.png', { frameWidth: 24, frameHeight: 24 });
-        this.load.spritesheet('enemy', 'src/assets/sprites/cows.png', { frameWidth: 24, frameHeight: 24 });
-        this.load.spritesheet('buildings', 'src/assets/sprites/buildings.png', { frameWidth: 64, frameHeight: 64 });
-        this.load.image('enemyRoped', 'src/assets/sprites/enemyRoped.png');
-        this.load.image('rope', 'src/assets/sprites/rope.png');
-        this.load.image('background', 'src/assets/sprites/background.png');
+        this.load.spritesheet('player', 'sprites/cowboy.png', { frameWidth: 24, frameHeight: 24 });
+        this.load.spritesheet('enemy', 'sprites/cows.png', { frameWidth: 24, frameHeight: 24 });
+        this.load.spritesheet('buildings', 'sprites/buildings.png', { frameWidth: 64, frameHeight: 64 });
+        this.load.image('enemyRoped', 'sprites/enemyRoped.png');
+        this.load.image('rope', 'sprites/rope.png');
+        this.load.image('background', 'sprites/background.png');
     }
 
     create() {
